@@ -21,9 +21,37 @@ h2 {
 p {
     font-size: 1.1em;
 }
+
+/* nav bar style  */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 30px;
+  }
+  .btn {
+    background:#e02c6d;
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .navbar-item{
+      padding: 5px 100px;
+  }
 /* heading part style  */
-.container {
+.top-container{
     background-color: #2D25A0;
+}
+.container {
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -112,6 +140,10 @@ footer {
 ----------------  */
 
 @media only screen and (max-width: 688px) {
+    nav{
+        display: none;
+    }
+    
     .heading-box {
         padding: 0px 15px;
     }
