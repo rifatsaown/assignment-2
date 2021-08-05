@@ -87,6 +87,12 @@ nav a {
     width: 100%;
 }
 
+.banner-img:hover{
+    transition: .5s;
+    transform: scale(1.3);
+}
+
+
 /* button style  */
 button {
     background-color: #E02C6D;
@@ -97,6 +103,10 @@ button {
     cursor: pointer;
     border-radius: 10px;
 }
+button:hover{
+        transition: .5s;
+        transform: scale(1.2);
+}
 
 button i {
     padding-left: 8px;
@@ -106,19 +116,21 @@ button i {
 .player-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 70px 200px;
+    padding: 70px 250px;
 }
 
 .player-box {
     width: 400px;
     height: 500px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    margin: 27px 30px;
+    margin: 20px 0;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .player-box img {
     width: 100%;
+    border-radius: 10px;
 }
 
 /* footer style  */
