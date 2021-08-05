@@ -26,7 +26,7 @@ p {
     background-color: #2D25A0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 .container2{
@@ -59,13 +59,12 @@ p {
 /* button style  */
 button {
     background-color: #E02C6D;
-    border: #E02C6D solid;
     font-size: 20px;
     color: white;
     font-weight: 500;
     padding: 13px 25px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 button i {
     padding-left: 8px;
@@ -143,5 +142,8 @@ footer {
     .banner-img2{
         width: 100%;
         margin: 30px 0;
+    }
+    .container2{
+        margin-top: 40px
     }
 }
