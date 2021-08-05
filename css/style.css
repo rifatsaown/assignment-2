@@ -20,7 +20,8 @@ p {
 /* nav bar style  */
 nav {
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 nav a {
     text-decoration: none;
     color: white;
@@ -44,6 +45,7 @@ nav a {
 /* heading part style  */
 .top-container {
     background-color: #2D25A0;
+    padding-top:50px ;
 }
 
 .container {
