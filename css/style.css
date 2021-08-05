@@ -149,6 +149,9 @@ footer {
 ----------------  */
 
 @media only screen and (max-width: 688px) {
+    .top-container {
+        padding-top:0px ;
+    }
     nav {
         display: none;
     }
