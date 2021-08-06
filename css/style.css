@@ -132,11 +132,11 @@ button {
     padding: 13px 25px;
     cursor: pointer;
     border-radius: 10px;
-    transition: all .5s;
+    transition: all ..3s;
 }
 
 button:hover {
-    transform: scale(1.2);
+    color: rgba(255, 255, 255, 0.631);
 }
 
 button i {
